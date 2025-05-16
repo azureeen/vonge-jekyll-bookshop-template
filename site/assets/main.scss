@@ -2,3 +2,12 @@
 ---
 
 {% bookshop_scss %}
+
+
+body, .nav__list .nav__item .nav__link.active-link::after {
+  background-color: #C8D7D2;
+}
+
+.c-button--primary, .c-blog-card__tag, .c-blog-card__tag::before, .c-hero__btn .works-button .circle-bg {
+  background: linear-gradient(90deg, #2ca86e 0%, #004d25 107%);
+}
